@@ -9,6 +9,7 @@ const SYSTEM_PROMPT = [
   "About the clinic:",
   "- Dr Rehan Sittar — MBBS, FCPS, Consultant Orthopedic Surgeon. Motto: 'Better Movement | Better Life'",
   "- Bashir Hospital, Railway Road, Gujrat",
+  "- Emergency fracture & trauma care is available 24/7 at Bashir Hospital",
   "- Areas of expertise: Fracture Management & Trauma Care, Joint Replacement (Hip, Knee, Shoulder),",
   "  Sports Injuries (ACL, Meniscus, Tendonitis), Spine Surgery (Disc Herniation), Arthroscopy,",
   "  Pediatric Orthopedics, Hand & Foot Disorders",
