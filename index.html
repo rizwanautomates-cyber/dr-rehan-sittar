@@ -191,13 +191,23 @@ footer h4{color:#fff;font-family:'Fraunces',serif;font-size:18px;margin-bottom:1
 @media(max-width:520px){.svc-grid{grid-template-columns:1fr}}
 .logo-frame{border-radius:50%!important;padding:6px!important}
 .logo-frame img{border-radius:50%!important;aspect-ratio:1!important;object-fit:cover!important;width:min(380px,84vw)!important;background:#fff}
+.emg{background:linear-gradient(90deg,#5f1210,#991b1b 55%,#7f1d1d);color:#fff}
+.emg-in{display:flex;align-items:center;justify-content:space-between;gap:26px;padding-top:30px;padding-bottom:30px;flex-wrap:wrap}
+.emg-txt{display:flex;gap:18px;align-items:flex-start;max-width:720px}
+.emg-badge{background:#fff;color:#991b1b;font-weight:800;font-size:.72rem;letter-spacing:.08em;padding:6px 12px;border-radius:999px;white-space:nowrap;margin-top:6px;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+.emg h2{font-family:"Fraunces",serif;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.1}
+.emg p{color:#FECACA;margin-top:6px}
+.emg-call{background:#fff;color:#7f1d1d;font-weight:700;text-align:center;padding:14px 26px;border-radius:16px;font-size:.9rem;line-height:1.35;box-shadow:0 14px 30px rgba(0,0,0,.35)}
+.emg-call b{font-size:1.25rem;letter-spacing:.02em}
+.emg-call:hover{transform:translateY(-2px)}
 </style>
 </head>
 <body>
 
 <div class="topbar">
   <div class="wrap">
-    <div>Bashir Hospital, Railway Road, Gujrat — <span class="motto">"Better Movement | Better Life"</span></div>
+    <div>Bashir Hospital, Railway Road, Gujrat — <span class="motto">"Better Movement | Better Life"</span> · <b style="color:#FF8A8A">Emergency 24/7</b></div>
     <div>Appointments: <a href="tel:+923471649065">0347 1649065</a></div>
   </div>
 </div>
@@ -275,10 +285,23 @@ footer h4{color:#fff;font-family:'Fraunces',serif;font-size:18px;margin-bottom:1
   </div>
 </div>
 
+<section class="emg">
+  <div class="wrap emg-in">
+    <div class="emg-txt">
+      <span class="emg-badge">● LIVE</span>
+      <div>
+        <h2>Emergency? Trauma Care Available 24/7</h2>
+        <p>Fracture, accident or severe injury — day or night, emergency orthopedic care is available at Bashir Hospital, Railway Road, Gujrat.</p>
+      </div>
+    </div>
+    <a class="emg-call" href="tel:+923471649065">📞 Call Now<br><b>0347 1649065</b></a>
+  </div>
+</section>
+
 <section class="sec" id="about">
   <div class="wrap about-grid">
     <div class="about-img reveal">
-      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Operating_theatre.jpg/960px-Operating_theatre.jpg" alt="Modern operating theatre">
+      <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/MAST_Course_Training_At_The_Royal_College_Of_Surgeons_-_Fri_1_Apr_2016_MOD_45164000.jpg/960px-MAST_Course_Training_At_The_Royal_College_Of_Surgeons_-_Fri_1_Apr_2016_MOD_45164000.jpg" alt="Modern operating theatre">
       <div class="tag">
         <img src="logo.jpg" alt="Bashir Hospital">
         <span><b>Bashir Hospital</b><small>BETTER MOVEMENT · BETTER LIFE</small></span>
@@ -291,7 +314,7 @@ footer h4{color:#fff;font-family:'Fraunces',serif;font-size:18px;margin-bottom:1
       <p style="color:var(--mut);margin-top:10px;font-size:16.5px">His approach is simple: diagnose properly, explain your options clearly, and recommend surgery only when it is truly the right step for you.</p>
       <ul class="checks">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> MBBS, FCPS — Consultant Orthopedic Surgeon</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Fracture management &amp; complete trauma care</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Fracture management &amp; complete trauma care — emergency available 24/7</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Joint replacement — hip, knee &amp; shoulder — plus arthroscopy for sports injuries (ACL, meniscus)</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Spine surgery, pediatric orthopedics, and hand &amp; foot disorders</li>
       </ul>
@@ -308,31 +331,31 @@ footer h4{color:#fff;font-family:'Fraunces',serif;font-size:18px;margin-bottom:1
     </div>
     <div class="svc-grid">
       <article class="svc reveal">
-        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Radiographie_Jambe_H%C3%B4pital_Laquintinie_Douala_06.jpg/960px-Radiographie_Jambe_H%C3%B4pital_Laquintinie_Douala_06.jpg" alt="Leg fracture X-ray" loading="lazy"></div>
+        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Two_postoperative_radiographs_of_a_patient_who_underwent_rodding_surgery_for_osteogenesis_imperfecta.png/960px-Two_postoperative_radiographs_of_a_patient_who_underwent_rodding_surgery_for_osteogenesis_imperfecta.png" alt="Fracture fixation X-ray" loading="lazy"></div>
         <div class="bd"><span class="chip">Trauma Care</span><h3>Fracture Management &amp; Trauma Care</h3><p>Expert fracture management and complete emergency trauma care — the right treatment, at the right time, for broken bones and injuries.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Knee_Replacement.png/960px-Knee_Replacement.png" alt="Joint replacement illustration" loading="lazy"></div>
+        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Postoperative_X-ray_of_normal_knee_prosthesis%2C_lateral_view%2C_annotated.jpg/960px-Postoperative_X-ray_of_normal_knee_prosthesis%2C_lateral_view%2C_annotated.jpg" alt="Knee replacement X-ray" loading="lazy"></div>
         <div class="bd"><span class="chip">Joint Care</span><h3>Joint Replacement</h3><p>Total joint replacement for hip, knee and shoulder — restoring smooth, pain-free movement when arthritis or damage has worn the joint out.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Arthroskopie.jpg/960px-Arthroskopie.jpg" alt="Arthroscopy for sports injuries" loading="lazy"></div>
+        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Anterior_Cruciate_Ligament_Tear.jpg" alt="ACL injury — sports injuries" loading="lazy"></div>
         <div class="bd"><span class="chip">Sports Injuries</span><h3>Sports Injuries</h3><p>Specialist care for ACL tears, meniscus injuries and tendonitis — accurate diagnosis and a clear plan to get you back to your game.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Kr%C4%99g_004.jpg" alt="Spine" loading="lazy"></div>
+        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Lumbar_MRI_t2-tse-rst-sagittal_05.jpg" alt="Spine MRI — disc herniation" loading="lazy"></div>
         <div class="bd"><span class="chip">Spine Care</span><h3>Spine Surgery</h3><p>Careful assessment and surgical care for spine problems, including disc herniation — treated with precision, and only when surgery is truly needed.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Typical_arthroscopic_surgery_incisions_-_knee.JPG/960px-Typical_arthroscopic_surgery_incisions_-_knee.JPG" alt="Arthroscopy — minimally invasive surgery" loading="lazy"></div>
+        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Arthroscopy_is_a_surgical_technique.png/960px-Arthroscopy_is_a_surgical_technique.png" alt="Arthroscopy — keyhole surgery" loading="lazy"></div>
         <div class="bd"><span class="chip">Keyhole Surgery</span><h3>Arthroscopy</h3><p>Minimally invasive keyhole surgery for joints — smaller cuts, less pain and a faster recovery compared to open surgery.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Radiographs_of_a_13-year-old_boy.jpg" alt="Pediatric orthopedic X-ray" loading="lazy"></div>
+        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Salter-Harris_III_Fracture_Distal_Tibia_.jpg/960px-Salter-Harris_III_Fracture_Distal_Tibia_.jpg" alt="Pediatric fracture X-ray" loading="lazy"></div>
         <div class="bd"><span class="chip">Children</span><h3>Pediatric Orthopedics</h3><p>Gentle, specialist orthopedic care for children — fractures, growth-plate injuries and bone problems treated with the extra care young patients need.</p></div>
       </article>
       <article class="svc reveal">
-        <div class="ph"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Avulsion_fracture_of_the_left_first_metacarpal.jpg" alt="Hand X-ray" loading="lazy"></div>
+        <div class="ph"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/X-ray_of_normal_right_foot_by_dorsoplantar_projection.jpg/960px-X-ray_of_normal_right_foot_by_dorsoplantar_projection.jpg" alt="Foot X-ray" loading="lazy"></div>
         <div class="bd"><span class="chip">Hand &amp; Foot</span><h3>Hand &amp; Foot Disorders</h3><p>Detailed care for hand and foot disorders — fractures, deformities and painful conditions of the hand, wrist, foot and ankle.</p></div>
       </article>
       <article class="svc reveal" style="background:linear-gradient(160deg,var(--deep),var(--deep-2));border-color:transparent">
@@ -406,7 +429,7 @@ footer h4{color:#fff;font-family:'Fraunces',serif;font-size:18px;margin-bottom:1
         </div>
         <div class="info-row">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg></span>
-          <div><b>Emergency?</b><p>For fractures and injuries, go directly to Bashir Hospital emergency — do not wait for an appointment.</p></div>
+          <div><b>Emergency?</b><p>For fractures and injuries, emergency trauma care at Bashir Hospital is available 24/7 — go directly to the hospital — do not wait for an appointment.</p></div>
         </div>
       </div>
       <div class="form-card reveal" id="booking">
